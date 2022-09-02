@@ -1,0 +1,1017 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::selection{
+    background-color: #00FF84;
+}
+
+/* Header */
+.logo{
+    /* background-image: url(https://static.skillshare.com/assets/images/logo-header-2020.svg); */
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.side-logo{
+    align-items: center;
+    display: flex;
+}
+.header{
+    /* width: 100vw; */
+    padding: 15px;
+    height: 60px;
+    display: flex;
+    background-color: #002333;
+}
+.browes-dropdown{
+    display: flex;
+    flex: 1;
+    padding: 0 52px;
+    align-items: center;
+}
+.browes-dropdown label{
+    color: #fff;
+    margin-top: 3px;
+    /* background-color: aqua; */
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.browes-dropdown label:hover{
+    color: #00ff84;
+}
+.nav-menu-list{
+    width: 140px;
+    margin: 12px 100px 11px 8px;
+}
+ul{
+    list-style: none;
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    
+}
+.nav-team-plan{
+    align-items: center;
+    display: flex;
+}
+.nav-team-plan-link{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: #002333;
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+}
+.nav-team-plan-link:hover{
+    color: #00ff84;
+}
+.nav-item-language{
+    margin: 0 1rem;
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 3px;
+    color: #fff;    
+    cursor: pointer;
+}
+.sign-in-btn{
+    display: flex;
+    align-items: center;
+}
+.btn-in{
+    background: transparent;
+    padding: 10px 20px;
+    font-weight: 550;
+    font-size: 1rem;
+    /* border: 1px solid #fff; */
+    border-radius:5px;
+    border-color: #fff;
+    color: #fff;
+}
+.btn-in:hover{
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+}
+
+
+/* BODY : First Container */
+/* .first-container{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: #002333;
+}
+@media screen and (min-width: 990px) {
+    .first-container {
+            min-height: 598px;
+        }
+}
+@media screen and (min-width: 540px) {
+    .first-container {
+            min-height: 838px;
+        }
+}
+@media screen and (min-width: 810px) {
+    .first-container {
+            min-height: 576px;
+        }
+} */
+.first-container{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-rows: repeat(1);
+    grid-template-columns: repeat(2); */
+    padding-top: 1rem;
+    background-color: #002333;
+}
+
+
+/* sign up container */
+.first-container .sign-up-container{
+    width: 40%;
+    background-color: #002333;
+}
+/* @media screen and (min-width: 990px) {
+    .first-container .sign-up-container{
+        min-height: 516px;
+        min-width: 370px;
+    }
+}
+@media screen and (min-width: 810px) {
+    .first-container .sign-up-container{
+        width: 40%;
+        min-width: 324px;
+    }
+}
+@media screen and (min-width: 541px) {
+    .first-container .sign-up-container{
+        left: 0;
+        right: 0;
+    }
+} */
+.sign-up-div{
+    display: grid;
+    /* grid-template-rows: repeat(3);  */
+    padding: 30px 160px;
+}
+.heading-grid{
+    color: #fff;
+    font-family: "Kumlien Pro",serif;
+    text-align: center;
+    font-size: 23px;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    width: 300px;
+    
+}
+.start-learn-grid{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.sign-up-grid-row3{
+    display: contents;
+}
+.fb-btn{
+    margin: 1rem;
+    margin-bottom: 12px;
+    padding: 10px 0px;
+    margin-top: 2.6rem;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.fb-icon{
+    font-size: 21px;
+    color: rgb(24, 119, 242);
+    margin-left: 12px;
+}
+.google-btn{
+    margin: 0 1rem;
+    margin-bottom: 12px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.google-icon{
+    font-size: 18px;
+    color: rgb(52, 168, 83);;
+    margin-left: 12px;
+}
+.apple-btn{
+    margin: 0 1rem;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.apple-icon{
+    font-size: 22px;
+    margin-left: 12px;
+}
+.or-line{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    line-height: 0.1em;
+    color: #fff;
+    margin: 1.5rem 1rem;
+}
+.span-or{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 16px;
+    background: #002333;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.sign-up-link{
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00FF84;
+}
+.sign-up-link:hover{
+    text-decoration: underline;
+}
+.service-policy{
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 500;
+}
+.term-of-service{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+.term-of-service:hover{
+    text-decoration: underline;
+}
+.privacy-policy{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.privacy-policy:hover{
+    text-decoration: underline;
+}
+
+/* marketing banner */
+.first-container .marketing-banner{
+    position: absolute;
+    min-height: 700px;
+    background-color: #e8dddb;
+    width: 60%;
+    left: 40%;
+    background-image: url(images/embedded-hero-mobile-rd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 0 0 16px;
+}
+/* @media screen and (min-width: 990px) {
+    .first-container .marketing-banner{
+        top: 19px;
+        height: 680px;
+        min-width: 600px;
+        
+    }
+}
+@media screen and (min-width: 810px) {
+    .first-container .marketing-banner{
+        width: 60%;
+        left: 40%;
+        border-radius: 16px 0 0 16px;
+        background-image: url(images/embedded-hero-mobile-rd.webp);
+    }
+}
+@media screen and (min-width:541px) {
+    .first-container .marketing-banner{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:541px) {
+    .first-container .marketing-banner{
+        width: 100%;
+        background-image: url(images/embedded-hero-mobile-rd.webp);
+    }
+} */
+
+/* Discover LifeLong Learning */
+.second-container{
+    margin-top: 10rem;
+}
+.h1-of-second-container{
+    text-align: center;
+    font-size: 3rem;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #002333;
+}
+/* navbar */
+.nav-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav-btn{
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+.nav-btn-link{
+    margin: 18px 23px;
+    padding-bottom: 18px;
+    font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 700;
+    color: #002333;
+    text-decoration: none;
+}
+.nav-btn-link:hover{
+    color: #3722d3;
+}
+.nav-btn-link:focus{
+    border-bottom: 4px solid #3722d3;
+    color: #3722d3;
+}
+
+
+
+/* Image Portfolio */
+.img-portfolio{
+    margin: 5rem 0;
+}
+.img-portfolio .portfolio-image-first{
+    /* width: 100vw; */
+    background-image: url(images/build-a-business.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: 35rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
+    
+}
+.inside-portfolio-image{
+    color: #fff;
+    padding-left: 17rem;
+    padding-top: 9rem;
+    width: 600px;
+    /* opacity: 0.5; */
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.h3-inside-portfolio-image{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.h1-inside-portfolio-image{
+    color: #fff;
+    margin-top: 0;
+    font-size: 30px;
+}
+.p-inside-portfolio-image{
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+.btn-inside-portfolio-image{
+    margin-top: 1.5rem;
+    padding: 9px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #00FF86;
+}
+.btn-inside-portfolio-image:hover{
+    cursor: pointer;
+}
+
+/* Example */
+/* What You Will Discover */
+.example{
+    height: 2500px;
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.what-you-will-discover{
+    margin-top: 12rem;
+    display: grid;
+    grid-template-rows: repeat(1,552px);
+    grid-template-columns: repeat(2, 40% 60%);
+}
+/* column 1 0f grid (width 40%) */
+.col-1{
+    margin-left: 15rem;
+    margin-top: 10rem;
+    padding-left: 26px;
+    padding-right: 4rem;
+}
+.col-1-h1{
+    font-size: 3rem;
+    margin: 0;
+    color: #002333;
+}
+.blue-line{
+    width: 6rem;
+    border-bottom: 8px solid black;
+    border-radius: 5px;
+    margin-top: 1.6rem;
+    border-color: #3722d3;
+}
+.col-1-dics{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.col-1-btn{
+    color: #3722d3;
+    background-color: transparent;
+    border: 1px solid #3722d3;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin-top: 20px;
+}
+.col-1-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #3722d3;
+}
+/* column 2 of grid width 60% of vw */
+.col-2{
+    background-image: url(images/WhatWillYouDiscover.avif);
+    border-radius: 8px 0 0 8px;
+    height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:8px 13px 25px rgb(0 0 0 / 40%);
+}
+
+/* membership-with-meaning */
+.membership-with-meaning{
+    display: grid;
+    grid-template-rows: repeat(1, 624px);
+    grid-template-columns: repeat(2, 60% 40%);
+    margin-top: 20rem;
+}
+/* col 1 of grid 60% of MemberShip with meaning  */
+.col-1-membership{
+    background-image: url(images/MembershipWithMeaning.webp);
+    background-size: cover;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 12px 12px 25px rgb(0 0 0 / 40%);
+    margin-left: 10px;
+}
+/* column 2  of grid 40% of membership with meanning */
+.col-2-membership{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-right: 15rem;
+}
+.col-2-membership-h1{
+    font-size: 3rem;
+    margin: 0;
+    color: #002333;
+}
+.col-2-membership-dics{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.col-2-membership-btn{
+    color: #3722d3;
+    background-color: transparent;
+    border: 1px solid #3722d3;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin-top: 20px;
+}
+.col-2-membership-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #3722d3;
+}
+
+/* Online Learning Designed For Real Life */
+.online-learning{
+    display: grid;
+    grid-template-rows: repeat(1, 600px);
+    grid-template-columns: repeat(2, 40% 60%);
+    margin-top: 12rem;
+}
+/*  column 1 of Online Learning Designed For Real Life  */
+.col-1-online{
+    margin-left: 15.6rem;
+    margin-top: 4rem;
+    padding-right: 4.3rem;
+    line-height: 3rem;
+}
+.h1-col-1-online{
+    font-size: 3rem;
+    margin: 0;
+    color: #002333;
+}
+.col-1-online-dics{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.col-1-online-btn{
+    color: #3722d3;
+    background-color: transparent;
+    border: 1px solid #3722d3;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin-top: 20px;
+}
+.col-1-online-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #3722d3;
+}
+/* column 2 of Online Learning Designed For Real Life */
+.col-2-online{
+    background-image: url(images/ClassesDesignedForRealLife.avif);
+    background-size: cover;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow:8px 13px 25px rgb(0 0 0 / 40%);
+    /* margin-left: 10px; */
+    margin-left: 2rem;
+}
+
+/* Classes Taught by Real Creators */
+.real-creaters{
+    height: 1000px;
+    background-color: rgb(0, 35, 51);
+    text-align: center;
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    padding-bottom: 6rem;
+}
+.h1-real-creaters{
+    color: #fff;
+    padding: 4rem 37rem 1rem 37rem;
+    font-size: 3.1rem;
+    line-height: 6rem;
+    margin: 0;
+}
+.green-line{
+    width: 6rem;
+    border-bottom: 8px solid black;
+    border-radius: 5px;
+    margin-top: 1.6rem;
+    border-color: #00FF84;
+    text-align: center;
+    margin: 0 auto;
+}
+.real-creater-disc{
+    color: #fff;
+    padding: 10px 30rem;
+    font-size: 23px;
+    line-height: 49px;
+}
+
+/* Learn From Anywhere */
+.learn-from-anywhere{
+    display: grid;
+    grid-template-rows: repeat(1, 750px);
+    grid-template-columns: repeat(2, 40% 60%);
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.col-1-learn{
+    margin-left: 15.6rem;
+    margin-top: 4rem;
+    padding-right: 4.3rem;
+    line-height: 3rem;
+}
+.h1-col-1-learn{
+    font-size: 3rem;
+    margin: 0;
+    color: #002333;
+    margin-top: 2rem;
+}
+.col-1-learn-dics{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.col-1-learn-btn{
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-top: 50px;
+    color: #fff;
+    background: black;
+    border: transparent;
+    font-size: 20px;
+    display: flex;
+    width: 170px;
+}
+.col-1-learn-btn:hover{
+    cursor: pointer;
+}
+.app-store-icon{
+    font-size: 33px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.title-app-store{
+    font-size: 10px;
+}
+
+.col-1-learn-btn2{
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-top: 50px;
+    color: #fff;
+    background: black;
+    border: transparent;
+    font-size: 20px;
+    display: flex;
+    width: 180px;
+    padding-bottom: 9px;
+}
+.col-1-learn-btn2:hover{
+    cursor: pointer;
+}
+.google-store-icon{
+    font-size: 33px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.title-google-store{
+    font-size: 10px;
+    float: left;
+}
+/* column 2 of learn from anywhere */
+.tablet-mockup{
+    height: 43rem;
+    margin-left: 15rem;
+    margin-bottom: 6rem;
+    margin-top: -13rem;
+    box-shadow: 8px 13px 25px rgb(0 0 0 / 40%);
+    border-radius: 3rem;
+
+}
+.phone-mockup{
+    height: 32rem;
+    margin-top: -28rem;
+    margin-left: 9rem;
+    box-shadow: 8px 13px 25px rgb(0 0 0 / 40%);
+    border-radius: 2.3rem;
+}
+
+/* teacher-directory */
+.teacher-directory{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+}
+.teachers-directory-links-div{
+    margin: 18px;
+    
+    font-weight: 500;
+}
+.teacher-directory-link{
+    text-decoration: none;
+    color: #3722d3;
+    padding-right: 7px;
+}
+.teacher-directory-link:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+
+/* after-teacher-dictionary */
+.after-teacher-dictionary{
+    display: grid;
+    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(4, 25% 22% 20% 33%);
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-bottom: 2rem;
+
+}
+/* creative */
+.creative-div{
+    display: grid;
+    padding: 2.4rem 0;
+    padding-left: 17rem;
+}
+.creative{
+    font-size: 19px;
+    text-decoration: none;
+    color: #002333;
+    font-weight: 500;
+}
+.creative-link{
+    text-decoration: none;
+    color: #002333;
+    font-size: 14px;
+    font-weight: 500;
+}
+.creative:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.creative-link:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.more{
+    color: #3722d3;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* Business */
+.business-div{
+    display: grid;
+    padding: 2.4rem 0;
+    padding-left: 9rem;
+}
+.business{
+    font-size: 19px;
+    text-decoration: none;
+    color: #002333;
+    font-weight: 500;
+}
+.business-link{
+    text-decoration: none;
+    color: #002333;
+    font-size: 14px;
+    font-weight: 500;
+}
+.business:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.business-link:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.more{
+    color: #3722d3;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* technology */
+.technology-div{
+    display: grid;
+    padding: 2.4rem 0;
+    padding-left: 3rem;
+}
+.technology{
+    font-size: 19px;
+    text-decoration: none;
+    color: #002333;
+    font-weight: 500;
+}
+.technology-link{
+    text-decoration: none;
+    color: #002333;
+    font-size: 14px;
+    font-weight: 500;
+}
+.technology:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.technology-link:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.more{
+    color: #3722d3;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* lifestyle */
+.lifestyle-div{
+    display: grid;
+    padding: 2.4rem 0;
+}
+.lifestyle{
+    font-size: 19px;
+    text-decoration: none;
+    color: #002333;
+    font-weight: 500;
+}
+.lifestyle-link{
+    text-decoration: none;
+    color: #002333;
+    font-size: 14px;
+    font-weight: 500;
+}
+.lifestyle:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.lifestyle-link:hover{
+    color: #3722d3;
+    text-decoration: underline;
+}
+.more{
+    color: #3722d3;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer{
+    height: 430px;
+    background-color: rgb(0, 35, 51) ;
+}
+.footer-div{
+    display: grid;
+    /* justify-content: center; */
+    grid-template-rows: repeat(1, 200px);
+    grid-template-columns: repeat(4, 25% 25% 25% 25%);
+    font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    padding-top: 4rem;
+    padding-left: 270px;
+    padding-right: 270px;
+
+}
+/* Company Div */
+.company{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.company-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.company-link:hover{
+    color: #00FF84;
+    text-decoration: underline;
+}
+/* Community Div */
+.community{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.community-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.community-link:hover{
+    color: #00FF84;
+    text-decoration: underline;
+}
+/* Teaching div */
+.teaching{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.teaching-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.teaching-link:hover{
+    color: #00FF84;
+    text-decoration: underline;
+}
+/* Mobile Div */
+.mobile{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.mob-div-btn{
+    border-radius: 5px;
+    color: #fff;
+    background: black;
+    font-size: 14px;
+    padding: 6px 8px;
+    box-shadow: 0 0 3px;
+}
+.mob-div-btn:hover{
+    cursor: pointer;
+}
+.mob-app-store-icon{
+    font-size: 25px;
+}
+.mob-title-app-store{
+    font-size: 8px;
+    float: left;
+}
+.mob-app-store-tag{
+    font-size: 16px;
+}
+.mob-div-btn2{
+    border-radius: 5px;
+    box-shadow: 0 0 3px ;
+    color: #fff;
+    background: black;
+    font-size: 22px;
+    padding: 7px 9px;
+}
+.mob-div-btn2:hover{
+    cursor: pointer;
+}
+.mob-app-google-icon{
+    font-size: 25px;
+    margin-top: 3px;
+}
+.mob-title-google-store{
+    font-size: 8px;
+    float: left;
+}
+.mob-google-store-tag{
+    font-size: 16px;
+}
+/* Green Line */
+.mob-green-line{
+    margin: 2rem 270px 14px 270px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    border-color: #00FF84;
+}
+/* last line */
+.last-line{
+    color: #fff; 
+    margin: 0rem 270px;
+    display: flex;
+}
+.last-line-skill-share{
+    margin: 1rem 1rem 1rem 0rem;
+}
+.last-line-link{
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem 1rem;
+}
+.last-line-link:hover{
+    color: #00FF84;
+    text-decoration: underline;
+}
+.last-line-icons{
+    margin: 1rem 3.1rem 1rem 28rem;
+}
+.last-line-icon{
+    font-size: 19px;
+    margin: 0 3px 0 3px;
+}
+.last-line-icon:hover{
+    cursor: pointer;
+}
+.last-line-select{
+    height: 46px;
+    width: 155px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.last-line-option{
+    color: #000;
+}

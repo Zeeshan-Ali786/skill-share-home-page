@@ -1,0 +1,75 @@
+/* Dot below porfolio */
+.dot-div{
+    text-align: center;
+    margin: 25px 0;
+}
+.dot{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+.dot:hover{
+    background-color: #3722d3;
+}
+/* left button */
+.btn-left{
+    margin: 0 10px;
+    border-radius: 26px;
+    font-size: 31px;
+    width: 43px;
+    border: transparent;
+    color: gray;
+    background-color: #fff;
+    box-shadow: 0 0 11px #80808059;
+}
+.btn-left:hover{
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+}
+.left-icon{
+    font-size: 20px;
+    padding-bottom: 9px;
+}
+/* Right button */
+.btn-right{
+    margin: 0 10px;
+    border-radius: 26px;
+    font-size: 31px;
+    width: 43px;
+    border: transparent;
+    color: gray;
+    background-color: #fff;
+    box-shadow: 0 0 11px #80808059;
+}
+.btn-right:hover{
+    color: rgb(58, 56, 56);
+    cursor: pointer;
+}
+.right-icon{
+    font-size: 20px;
+    padding-bottom: 9px;
+}
+
+
+
+
+
+/* Dot Second portfolio */
+.dot-second-portfolio{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+.dot-second-portfolio:hover{
+    background-color: #00FF84;
+}
