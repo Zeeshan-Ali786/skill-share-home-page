@@ -56,6 +56,64 @@
 }
 
 
+                        /* slider button */
+
+
+                        .arrow{
+                            text-align: center;
+                            margin: -4rem 0 0 0;
+                        }
+                        
+                        
+                        .dot{
+                            cursor: pointer;
+                            height: 12px;
+                            width: 12px;
+                            margin: 0 2px;
+                            background-color: #bbb;
+                            border-radius: 50%;
+                            display: inline-block;
+                            transition: background-color 0.6 ease;
+                        }
+                        .dot:hover{
+                            background-color: #3722d3;
+                        }
+                        
+                        /* left button and Right*/
+                        .btn-left, .btn-right{
+                            margin: 0 10px;
+                            border-radius: 26px;
+                            font-size: 31px;
+                            width: 43px;
+                            border: transparent;
+                            color: gray;
+                            background-color: #fff;
+                            box-shadow: 0 0 11px #80808059;
+                        }
+                        
+                        /* button left hover */
+                        .btn-left:hover{
+                            color: rgb(58, 56, 56);
+                            cursor: pointer;
+                        }
+                        .left-icon{
+                            font-size: 20px;
+                            padding-bottom: 9px;
+                        }
+                        
+                        /* button Right button */
+                        .btn-right:hover{
+                            color: rgb(58, 56, 56);
+                            cursor: pointer;
+                        }
+                        .right-icon{
+                            font-size: 20px;
+                            padding-bottom: 9px;
+                        }
+                        
+                        
+                        
+
 
 
 

@@ -104,7 +104,7 @@
     <div class="portfolio">
         <div id="all-categories">
             <div class="emma-gannon">
-                <img src="images/Emma Gannon.avif" alt="Emma Gannon" class="emma-img">
+                <img src="images/Efmma Gannon.avif" alt="Emma Gannon" class="emma-img">
                 <h4 class="h4-emma">Unlocking Your Potential: 5 Exercises to Build Creative Confidence</h4>
                 <p class="emma-name">Emma Gannon</p>
             </div>
@@ -138,8 +138,9 @@
         <span class="dot"></span>
         <button class="btn-right"><i class="fa-solid fa-angle-right right-icon"></i></button>
     </div>
+
     
-    <div class="img-portfolio" style="position: relative;">
+    <!-- <div class="img-portfolio" style="position: relative;">
         <div class="portfolio-image-first bg">
             <div class="inside-portfolio-image">
                 <h3 class="h3-inside-portfolio-image">Original</h3>
@@ -157,7 +158,79 @@
                 <button class="btn-right"><i class="fa-solid fa-angle-right right-icon"></i></button>
             </div>
         </div>
-    </div>
+    </div> -->
+
+<!-- image slider form skillshare.com -->
+
+    <!-- <div class="img-portfolio" style="position: relative;">  -->
+        <div class="slide-container"> 
+
+            <!-- First Image -->
+                <div class="slide">
+                    <div class="portfolio-image-first">
+                        <div class="inside-portfolio-image">
+                            <h3 class="h3-inside-portfolio-image">Original</h3>
+                            <h1 class="h1-inside-portfolio-image">
+                                Learn Music Fundamentals</h1>
+                            <p class="p-inside-portfolio-image">Explore and create your unique sound with Grammy Award-winning musician Jacob Collier.</p>
+                            <button class="btn-inside-portfolio-image">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Second Image -->
+
+                <div class="slide">
+                    <div class="portfolio-image-second">
+                        <div class="inside-portfolio-image">
+                            <h3 class="h3-inside-portfolio-image">Staff Pick.</h3>
+                            <h1 class="h1-inside-portfolio-image">
+                                Create a Digital Collage</h1>
+                            <p class="p-inside-portfolio-image">A step-by-step beginner's guide to Procreate collaging with graphic designer Bryan C'ngan.</p>
+                            <button class="btn-inside-portfolio-image">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Third Image -->
+                <div class="slide">
+                    <div class="portfolio-image-third">
+                        <div class="inside-portfolio-image">
+                            <h3 class="h3-inside-portfolio-image">Staff Pick.</h3>
+                            <h1 class="h1-inside-portfolio-image">
+                                Watercolor Without Fear</h1>
+                            <p class="p-inside-portfolio-image">Work on a dynamic canvas and create a repeat pattern by hand alongside artist Catherine Jennifer Charnock.</p>
+                            <button class="btn-inside-portfolio-image">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Forth Image -->
+                <div class="slide">
+                    <div class="portfolio-image-forth">
+                        <div class="inside-portfolio-image">
+                            <h1 class="h1-inside-portfolio-image">
+                                Learn Figma Essentials</h1>
+                            <p class="p-inside-portfolio-image">Create beautiful user interfaces and engaging prototypes clients will love with Adobe Certified Trainer Daniel Scott.</p>
+                            <button class="btn-inside-portfolio-image">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Slider Arrow -->
+
+            <div class="arrow">
+                    <button class="btn-left" onclick="controller(-1)"><i class="fa-solid fa-angle-left left-icon"></i></button>
+                    <span class="dot" onclick="slideDot(0)"></span>
+                    <span class="dot" onclick="slideDot(1)"></span>
+                    <span class="dot" onclick="slideDot(2)"></span>
+                    <span class="dot" onclick="slideDot(3)"></span>
+                    <button class="btn-right" onclick="controller(1)"><i class="fa-solid fa-angle-right right-icon"></i></button>
+            </div>
+
+        </div>
+
+
 
     <div class="example">
         <!-- What Will You Discover -->
@@ -437,6 +510,6 @@
         </div>
     </div>
     
-    
+    <script src="skillshare.js"></script>
 </body>
 </html>

@@ -189,6 +189,7 @@ ul{
     margin-top: 2.6rem;
     border-radius: 5px;
     text-align: left;
+    cursor: pointer;
     font-size: 17px;
     font-weight: 700;
     font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -203,6 +204,7 @@ ul{
     margin-bottom: 12px;
     padding: 10px 0px;
     border-radius: 5px;
+    cursor: pointer;
     text-align: left;
     font-size: 17px;
     font-weight: 700;
@@ -220,6 +222,7 @@ ul{
     padding: 10px 0;
     text-align: left;
     font-size: 17px;
+    cursor: pointer;
     font-weight: 700;
     font-family:  "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -358,28 +361,71 @@ ul{
 
 
 
-/* Image Portfolio */
-.img-portfolio{
+/* Image Slider */
+.slide-container{
     margin: 5rem 0;
+    position: relative;
+    width: 100%;
 }
-.img-portfolio .portfolio-image-first{
-    /* width: 100vw; */
-    background-image: url(images/build-a-business.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+
+
+.slide{
+    display: none;
+}
+
+/* First image */
+.portfolio-image-first{
+    background-image: url(images/learn-music.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
     height: 35rem;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* opacity: 0.5; */
-    
 }
+
+
+/* Second image */
+.portfolio-image-second{
+    background-image: url(images/digital-collage.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: 35rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Third image */
+.portfolio-image-third{
+    background-image: url(images/watercolor.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: 35rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Forth image */
+.portfolio-image-forth{
+    background-image: url(images/learn-figma.webp),linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: 35rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .inside-portfolio-image{
     color: #fff;
     padding-left: 17rem;
     padding-top: 9rem;
-    width: 600px;
-    /* opacity: 0.5; */
     font-family: "GT Walsheim Pro",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: -webkit-fill-available;
+
+
 }
 .h3-inside-portfolio-image{
     font-size: 1.5rem;
@@ -395,6 +441,9 @@ ul{
     color: #fff;
     font-weight: 500;
     font-size: 17px;
+
+    /* new lines */
+    width: 600px;
 }
 .btn-inside-portfolio-image{
     margin-top: 1.5rem;
@@ -408,6 +457,7 @@ ul{
 .btn-inside-portfolio-image:hover{
     cursor: pointer;
 }
+
 
 /* Example */
 /* What You Will Discover */
